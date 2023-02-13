@@ -40,6 +40,7 @@
     }
 
     section#login div#imagem {
+        display: block;
         background: #F2B807 url(../img/kenny-mc.jpg) no-repeat;
         background-size: cover;
         height: 200px;
@@ -49,3 +50,4 @@
         display: block;
         padding: 10px;
     }
+
