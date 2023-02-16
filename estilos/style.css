@@ -57,4 +57,58 @@
         color: #F28907;
     }
 
-    
+    div.campo > label {
+        display: none   ;
+    }
+
+    form > div.campo {
+        background-color: #F28907;
+        display: block;
+        font-size: 1em;
+        width: 100%;
+        height: 25px;
+        border-radius: 5px;
+        margin: 5px 0px;
+        
+
+    }
+
+    form > input[type=submit] {
+        display: block;
+        font-size: 1em;
+        width: 100%;
+        height: 25px;
+        border: none;
+        margin-top: 5px;
+        background-color: #F28907;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    form > input[type=submit]:hover {
+        background-color: #F2B807;
+
+    }
+
+    form > a.botao {
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        width: 100%;
+        height: 25px;
+        margin-top: 5px;
+        background-color: #F28907;
+        color: black;
+        border: 1px solid #F28907;
+        border-radius: 5px;
+        text-decoration: none;
+        
+    }
+
+    form > a.botao > i {
+        font-size: 0.8em;
+    }
+
+    form > a.botao:hover {
+        background-color: #F2B807;
+    }
