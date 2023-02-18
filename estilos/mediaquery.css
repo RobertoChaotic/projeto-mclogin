@@ -20,6 +20,18 @@
         float: right;
         width: 40%;
     }
+
+    div.campo > input {
+        background-color: white;
+        font-size: 1em;
+        width: 219px;
+        height: 83%;
+        transform: translateY(-10px);
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -41,4 +53,17 @@ section#login > div#formulario {
     float: left;
     width: 40%;
 }
+
+div.campo > input {
+    background-color: white;
+    font-size: 1em;
+    width: 310px;
+    height: 83%;
+    transform: translateY(-10px);
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
 }
+
+}
+
