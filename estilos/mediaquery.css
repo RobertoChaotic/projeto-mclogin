@@ -3,7 +3,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     body {
-        background-image: linear-gradient(to top, #202020, #3f3f3f );
+        background-image: linear-gradient(to top, #070707, #575757 );
     }
 
     section#login {
@@ -22,7 +22,7 @@
     }
 
     div.campo > input {
-        background-color: white;
+        background-color: #F28907;
         font-size: 1em;
         width: 219px;
         height: 83%;
@@ -36,7 +36,7 @@
 
 @media screen and (min-width: 992px) {
     body {
-        background-image: linear-gradient(to top, #202020, #3f3f3f );
+        background-image: linear-gradient(to top, #070707, #575757 ););
     }
 
     section#login {
@@ -55,7 +55,7 @@ section#login > div#formulario {
 }
 
 div.campo > input {
-    background-color: white;
+    background-color: #F28907;
     font-size: 1em;
     width: 310px;
     height: 83%;
